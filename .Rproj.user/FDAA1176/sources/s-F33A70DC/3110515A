@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550896092393.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1854096297",
+    "id" : "3110515A",
+    "lastKnownWriteTime" : 1551073564,
+    "last_content_update" : 1551073564759,
+    "path" : "~/FastPCA/R/FastPCA.R",
+    "project_path" : "R/FastPCA.R",
+    "properties" : {
+        "cursorPosition" : "62,0",
+        "scrollLine" : "45"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

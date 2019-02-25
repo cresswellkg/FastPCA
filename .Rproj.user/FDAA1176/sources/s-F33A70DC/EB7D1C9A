@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550985823856.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "742351689",
+    "id" : "EB7D1C9A",
+    "lastKnownWriteTime" : 1551073616,
+    "last_content_update" : 1551073616129,
+    "path" : "~/FastPCA/vignettes/fastpca.Rmd",
+    "project_path" : "vignettes/fastpca.Rmd",
+    "properties" : {
+        "cursorPosition" : "36,0",
+        "scrollLine" : "19"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

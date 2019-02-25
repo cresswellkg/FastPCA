@@ -1,0 +1,36 @@
+---
+title: "Vignette Title"
+author: "Vignette Author"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r set-options, echo=FALSE, cache=FALSE}
+options(width = 400)
+```
+
+# Introduction
+
+`FastPCA` is a simple implementation of principal component analysis designed to run fast on matrices of varying sizes. Additionally, `FastPCA` provides users the ability to only calculate a couple PCs at time. This allows users who are only interested in the first couple PCs to save large amounts of computing time when compared with base R implementation of PCA. The workhorse function of the algorithm is the `PRIMME` eigensolver (https://cran.r-project.org/web/packages/PRIMME/index.html) which allows for both partial eigendecompositon and a great increase in speed.
+
+# Getting Started
+
+## Installation
+
+```{r, eval = FALSE, message=FALSE}
+devtools::install_github("cresswellkg/FastPCA")
+library(FastPCA)
+```
+
+## Input data
+
+Data can be a data frame or matrix of any dimensions. For this vignette we simulate a relatively small 300 x 300 matrix
+
+```{r}
+sim_mat = matrix(runif(300^2, 0, 200), 300, 300)
+```
+
