@@ -12,8 +12,8 @@
 #' TRUE indicates correlation
 #' @param precomp Logical indicating whether to the raw input matrix should be
 #' used for PCA. If TRUE, cor is ignored. Default is FALSE
-#' @return \item {scores}{Principal component scores for each PC}
-#' @return \item {loadings}{ Component loadings}
+#' @return \item{scores}{Principal component scores for each PC}
+#' @return \item{loadings}{ Component loadings}
 #' @export
 #' @details FastPCA is a simple function for performing PCA that has been
 #' optimized for speed. FastPCA takes advantage of the PRIMME eigensolver which
