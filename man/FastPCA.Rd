@@ -21,7 +21,6 @@ used for PCA. If TRUE, cor is ignored. Default is FALSE}
 }
 \value{
 \item {scores}{Principal component scores for each PC}
-
 \item {loadings}{ Component loadings}
 }
 \description{
