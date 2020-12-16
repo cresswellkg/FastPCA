@@ -20,8 +20,8 @@ TRUE indicates correlation}
 used for PCA. If TRUE, cor is ignored. Default is FALSE}
 }
 \value{
-\item {scores}{Principal component scores for each PC}
-\item {loadings}{ Component loadings}
+\item{scores}{Principal component scores for each PC}
+\item{loadings}{ Component loadings}
 }
 \description{
 PCA algorithm designed to run fast and scale well to large matrices
